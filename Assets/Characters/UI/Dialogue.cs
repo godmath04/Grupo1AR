@@ -19,7 +19,7 @@ namespace UI
 
         void Start()
         {
-            input = GameObject.FindWithTag("Player").GetComponent<PlayerInput>();
+            //input = GameObject.FindWithTag("Player").GetComponent<PlayerInput>();
 
             dialogueText.text = string.Empty;
 
